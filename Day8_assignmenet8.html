@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<style type="text/css">
+		
+		table{
+			border: 5px solid black;
+			border-collapse: collapse;
+			margin: auto;
+			width: 75%
+		}
+		th,td{
+			border: 2px solid black;
+			padding: 10px;
+		}
+		th{
+			background-color: lightgreen;
+		}
+		tr:nth-child(odd) td{
+
+			background-color: hotpink;
+			color: white;
+		}
+		tr:nth-child(even) td{
+
+			background-color: orange;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<table>
+	<tr>
+		<th>Name</th>
+		<th colspan="2">Phone</th>
+		<th>Product</th>
+		<th>Quantity</th>
+		<th>Price</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td>mobile</td>
+		<td>landline</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>nysha</td>
+		<td>0583567894</td>
+		<td>67890</td>
+		<td>chocolate</td>
+		<td>10</td>
+		<td>100</td>
+	</tr>
+	<tr>
+		<td>nysha</td>
+		<td>0583567894</td>
+		<td>67890</td>
+		<td>chocolate</td>
+		<td>10</td>
+		<td>100</td>
+	</tr>
+	<tr><td>nysha</td>
+		<td>0583567894</td>
+		<td>67890</td>
+		<td>chocolate</td>
+		<td>10</td>
+		<td>100</td></tr>
+	<tr>
+		<td colspan="5">total amount</td>
+		<td>300</td>
+	</tr>
+</table>
+</body>
+</html>
